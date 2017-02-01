@@ -28,9 +28,13 @@ class PageController extends Controller
         return view('pages.blog');
     }
 
-
     public function gallery()
     {
         return view('pages.gallery');
+    }
+
+    public function contact()
+    {
+        return view('pages.contact');
     }
 }

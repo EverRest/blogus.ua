@@ -15,7 +15,8 @@ Route::get('/','PageController@index');
 
 Route::auth();
 
-Route::get('blog','PageController@blog');
+Route::get('/blog','PageController@blog');
 
-Route::get('gallery','PageController@gallery');
-//Route::get('/home', 'HomeController@index');
+Route::get('/gallery','PageController@gallery');
+
+Route::get('/contact', 'PageController@contact');
